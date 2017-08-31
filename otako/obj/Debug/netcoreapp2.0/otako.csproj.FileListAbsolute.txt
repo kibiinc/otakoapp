@@ -1,0 +1,10 @@
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\bin\Debug\netcoreapp2.0\otako.deps.json
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\bin\Debug\netcoreapp2.0\otako.runtimeconfig.json
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\bin\Debug\netcoreapp2.0\otako.runtimeconfig.dev.json
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\bin\Debug\netcoreapp2.0\otako.dll
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\bin\Debug\netcoreapp2.0\otako.pdb
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\obj\Debug\netcoreapp2.0\otako.csproj.CoreCompileInputs.cache
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\obj\Debug\netcoreapp2.0\otako.AssemblyInfoInputs.cache
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\obj\Debug\netcoreapp2.0\otako.AssemblyInfo.cs
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\obj\Debug\netcoreapp2.0\otako.dll
+C:\Users\eject\Documents\projects\otako\otakoapp\otako\obj\Debug\netcoreapp2.0\otako.pdb
