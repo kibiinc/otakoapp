@@ -4732,6 +4732,15 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "UniqueIdGenerator/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/UniqueIdGenerator.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/UniqueIdGenerator.Net.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -12503,6 +12512,17 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "UniqueIdGenerator/1.0.2": {
+      "sha512": "GlKtNCe71FRaptngHxGyaWQKoD0/+ltadkJHIi7ciScCU9l+bfgAFsChKaffvRag+4Af24qxqAnibZbwi3hf3w==",
+      "type": "package",
+      "path": "uniqueidgenerator/1.0.2",
+      "files": [
+        "lib/net45/UniqueIdGenerator.Net.XML",
+        "lib/net45/UniqueIdGenerator.Net.dll",
+        "uniqueidgenerator.1.0.2.nupkg.sha512",
+        "uniqueidgenerator.nuspec"
+      ]
+    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -12529,7 +12549,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "UniqueIdGenerator >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -12581,6 +12602,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "UniqueIdGenerator": {
+            "target": "Package",
+            "version": "1.0.2"
           }
         },
         "imports": [
@@ -12590,5 +12615,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UniqueIdGenerator 1.0.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "UniqueIdGenerator",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

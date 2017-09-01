@@ -20,6 +20,8 @@ namespace otako
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseIISIntegration()
+                .UseUrls("http://localhost:8080")
                 .Build();
     }
 }

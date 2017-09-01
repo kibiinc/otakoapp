@@ -23,10 +23,10 @@ namespace otako.Controllers.Views
                 codes = 0,
                 error = new
                 {
-                    message = "403 Method Not Allowed",
+                    message = "405 Method Not Allowed",
                     notes = "Refer to https://api.otakoapp.com/ for more info."
                 }
-            }), 403);
+            }), 405);
         }
     }
 }
