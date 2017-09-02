@@ -16,7 +16,7 @@ namespace otako.Controllers.Views
                 error = new
                 {
                     message = "401 Unauthorized",
-                    notes = "This endpoint has not yet been implemnted."
+                    notes = "This endpoint has not yet been implemented."
                 }
             }), 401);
         }
@@ -31,7 +31,7 @@ namespace otako.Controllers.Views
                 error = new
                 {
                     message = "401 Unauthorized",
-                    notes = "This endpoint has not yet been implemnted."
+                    notes = "This endpoint has not yet been implemented."
                 }
             }), 401);
         }

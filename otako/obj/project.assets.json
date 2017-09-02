@@ -12560,11 +12560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eject\\Documents\\projects\\otako\\otakoapp\\otako\\otako.csproj",
+      "projectUniqueName": "c:\\Users\\eject\\Documents\\projects\\otako\\otakoapp\\otako\\otako.csproj",
       "projectName": "otako",
-      "projectPath": "C:\\Users\\eject\\Documents\\projects\\otako\\otakoapp\\otako\\otako.csproj",
+      "projectPath": "c:\\Users\\eject\\Documents\\projects\\otako\\otakoapp\\otako\\otako.csproj",
       "packagesPath": "C:\\Users\\eject\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eject\\Documents\\projects\\otako\\otakoapp\\otako\\obj\\",
+      "outputPath": "c:\\Users\\eject\\Documents\\projects\\otako\\otakoapp\\otako\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
