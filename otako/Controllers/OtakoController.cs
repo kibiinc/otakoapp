@@ -1,6 +1,8 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using otako.Models.Entity;
+using otako.WebSocket;
 
 namespace otako.Controllers
 {
@@ -9,6 +11,9 @@ namespace otako.Controllers
     ///</summary>
     public class OtakoController : Controller
     {
+        public OtakoContext Context = null;
+        public OtakoSocket Socket = Global.Socket;
+
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             base.OnActionExecuting(filterContext);
