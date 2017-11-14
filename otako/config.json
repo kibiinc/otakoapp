@@ -1,5 +1,5 @@
 {
-    "websocket_url": "ws://ws.dev.otakoapp.org",
+    "websocket_url": "server",
     "websocket_token": "",
     "db_connection_string": "",
     "machine_id": 2,
